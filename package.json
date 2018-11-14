@@ -1,0 +1,25 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "node ./bin/www",
+    "start:dev": "./node_modules/nodemon/bin/nodemon.js ./bin/www --ignore './public/'",
+    "start": "./node_modules/nodemon/bin/nodemon.js ./bin/www 3050 --ignore './public/'"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-fileupload": "^0.4.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.14.1",
+    "serve-favicon": "~2.4.5",
+    "sync-request": "^6.0.0",
+    "unirest": "^0.5.1"
+  }
+}
