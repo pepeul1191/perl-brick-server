@@ -1,11 +1,11 @@
-## Perl Simple HTTP Server
+## Perl HTTP Server
 
 Instalación de paquetes de CPANM
 
-    $ sudo cpanm HTTP::Server::Simple
+    $ sudo cpanm HTTP::Server::Brick
 
 ---
 
 Fuentes:
 
-+ https://metacpan.org/pod/HTTP::Server::Simple
++ https://metacpan.org/pod/release/AUFFLICK/HTTP-Server-Brick-0.1.3/lib/HTTP/Server/Brick.pm#Response-Headers
